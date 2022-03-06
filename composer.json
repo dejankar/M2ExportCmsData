@@ -1,0 +1,24 @@
+{
+    "name": "skyoptical/module-export-cms-data",
+    "description": "Export CMS Blocks and Pages",
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "require": {
+        "magento/module-sales": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "SkyOptical\\ExportCmsData\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Dejan Karakashov",
+            "email": "d.karakashov@sky-optical.com",
+            "role": "Developer"
+        }
+    ]
+}

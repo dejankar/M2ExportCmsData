@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <listingToolbar name="listing_top">
+        <massaction name="listing_massaction">
+            <action name="cmsexport">
+                <argument name="data" xsi:type="array">
+                    <item name="config" xsi:type="array">
+                        <item name="type" xsi:type="string">cmsexport</item>
+                        <item name="label" xsi:type="string" translate="true">Export CMS Pages</item>
+                        <item name="url" xsi:type="url"
+                              path="cmsexport/csvexport/export/type/page"/>
+                        <item name="confirm" xsi:type="array">
+                            <item name="title" xsi:type="string" translate="true">Export CMS Pages</item>
+                            <item name="message" xsi:type="string" translate="true">Do you want to export selected
+                                pages?
+                            </item>
+                        </item>
+                    </item>
+                </argument>
+            </action>
+        </massaction>
+    </listingToolbar>
+</listing>
+
