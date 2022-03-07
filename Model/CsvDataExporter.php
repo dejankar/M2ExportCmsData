@@ -107,7 +107,7 @@ class CsvDataExporter
         $this->csv
             ->setDelimiter(',')
             ->setEnclosure('"')
-            ->saveData(
+            ->appendData(
                 $filePath,
                 $cmsContentForDownload
             );
